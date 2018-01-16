@@ -1,6 +1,6 @@
 # Studienarbeit
 
-Vorraussetzungen: <br>
+<h3>Vorraussetzungen:</h3>
 <ul>
   <li>Python 3.x</li>
   <li>PyCharme</li>
@@ -8,8 +8,9 @@ Vorraussetzungen: <br>
   <li>Django</li>
 </ul>  
  
- <ul>
- Geplante Technologien:<br>
+
+  <h3>Geplante Technologien:</h3>
+   <ul>
   <li>Django                  https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK</li>
   <li>AngularJS               https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK</li>
   <li>Ajax                    https://www.youtube.com/watch?v=tp3Gw-oWs2k&list=PL6gx4Cwl9DGDiJSXfsJTASx9eMq_HlenQ</li>
@@ -19,7 +20,8 @@ Vorraussetzungen: <br>
 
 
 
-<ul>
-Weitere Tutorials:<br>
+
+  <h3>Weitere Tutorials:</h3>
+  <ul>
  <li>Responsive Webdesign   https://www.youtube.com/watch?v=yWgl3xXVlHI&list=PL6gx4Cwl9DGBaTsb1nse1UU48d_q7glGT</li>
   </ul>
