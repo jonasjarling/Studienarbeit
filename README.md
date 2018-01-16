@@ -2,9 +2,9 @@
 
 <h3>Vorraussetzungen:</h3>
 <ul>
-  <li>Python 3.x</li>
-  <li>PyCharme</li>
-  <li>Git</li>
+  <li>Python 3.7.x            https://www.python.org/downloads/windows/</li>
+  <li>PyCharme                https://www.jetbrains.com/pycharm/</li>
+  <li>Git                     https://git-scm.com/download/win</li>
   <li>Django</li>
 </ul>  
  
