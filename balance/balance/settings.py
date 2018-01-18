@@ -54,7 +54,7 @@ ROOT_URLCONF = 'balance.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['balance/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
