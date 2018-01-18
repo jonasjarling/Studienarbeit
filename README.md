@@ -5,7 +5,8 @@
   <li>Python 3.7.x            https://www.python.org/downloads/windows/</li>
   <li>PyCharme                https://www.jetbrains.com/pycharm/</li>
   <li>Git                     https://git-scm.com/download/win</li>
-  <li>Django</li>
+  <li>Django                  pip install django</li>
+  <li>(Bootstrap4             pip install django-bootstrap4</li>
 </ul>  
  
 
