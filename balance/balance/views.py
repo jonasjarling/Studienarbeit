@@ -1,5 +1,11 @@
 from django.http import HttpResponse
+from django.template import loader
 
 
 def index(request):
-        return HttpResponse("<h3>This is the Index page</h3>")
+
+    template = loader.get_template('balance/index.html')
+    context = {
+        'test': '123'
+    }
+    return HttpResponse(template.render(context, request))
