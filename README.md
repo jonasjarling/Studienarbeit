@@ -2,10 +2,11 @@
 
 <h3>Vorraussetzungen:</h3>
 <ul>
-  <li>Python 3.x</li>
-  <li>PyCharme</li>
-  <li>Git</li>
-  <li>Django</li>
+  <li>Python (3.7.0a) oder 3.6.x            https://www.python.org/downloads/windows/</li>
+  <li>PyCharme                https://www.jetbrains.com/pycharm/</li>
+  <li>Git                     https://git-scm.com/download/win</li>
+  <li>Django                  pip install django</li>
+  <li>(Bootstrap4             pip install django-bootstrap4)</li>
 </ul>  
  
 
@@ -15,6 +16,7 @@
   <li>AngularJS               https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK</li>
   <li>Ajax                    https://www.youtube.com/watch?v=tp3Gw-oWs2k&list=PL6gx4Cwl9DGDiJSXfsJTASx9eMq_HlenQ</li>
   <li>Bootstrap (Design)      https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK</li>
+  <li>Font Awesome            https://fontawesome.com/</li>
   <li>? MongoDB               https://www.youtube.com/watch?v=1uFY60CESlM&list=PL6gx4Cwl9DGDQ5DrbIl20Zu9hx1IjeVhO</li>
 </ul>
 
