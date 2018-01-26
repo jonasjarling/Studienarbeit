@@ -9,3 +9,11 @@ def index(request):
         'test': '123'
     }
     return HttpResponse(template.render(context, request))
+
+def training(request):
+
+    template = loader.get_template('balance/training.html')
+    context = {
+
+    }
+    return HttpResponse(template.render(context,request))
