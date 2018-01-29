@@ -3,10 +3,12 @@
   <li>Webdesign<ul>
     <li>Trainigsplan Darstellung</li>
     <li>Statistik Darstellung</li>
+    <li>Admin Gui</li>
     </ul></li>
   <li>Django Application Server<br>
   <ul>
     <li>User Management</li>
+    <li>Adimin Interface</li>
   </ul>
   </li>
   <li>Before Production Environment <ul>
