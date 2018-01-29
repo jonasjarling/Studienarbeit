@@ -1,27 +1,35 @@
 from django.http import HttpResponse
 from django.template import loader
-
+from django.shortcuts import render, get_object_or_404
 
 def index(request):
 
-    template = loader.get_template('balance/index.html')
+
     context = {
         'test': '123'
     }
-    return HttpResponse(template.render(context, request))
+    return render(request, 'balance/index.html', context)
 
-def training(request,trainingsplan_id):
-
-    template = loader.get_template('balance/training.html')
-    context = {
-        'id':trainingsplan_id,
-    }
-    return HttpResponse(template.render(context,request))
 
 def login(request):
 
-    template = loader.get_template('balance/login.html')
+
     context = {
 
     }
-    return HttpResponse(template.render(context,request))
+    return render(request,'balance/login.html', context)
+
+def news(request):
+
+
+    return HttpResponse("news")
+
+def home(request):
+
+
+    return HttpResponse("home")
+
+def profile(request):
+
+
+    return HttpResponse("profile")
