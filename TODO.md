@@ -1,15 +1,13 @@
 <ul>
   <li>Setup</li>
-  <li>Webdesign</li><ul>
-  <li>Trainigsplan Darstellung</li>
-  <li>Statistik Darstellung</li>
-  </ul>
+  <li>Webdesign<ul>
+    <li>Trainigsplan Darstellung</li>
+    <li>Statistik Darstellung</li>
+    </ul></li>
   <li>Django Application Server<br>
   <ul>
     <li>User Management</li>
-    <li>Trainigsplan Darstellung</li>
-    <li>Statistik Darstellung</li>
-    </ul>
+  </ul>
   </li>
   <li>Before Production Environment <ul>
     <li>Webserver (DJANGO IS NOT A WEBSERVER)</li>
