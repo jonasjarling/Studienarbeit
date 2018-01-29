@@ -1,6 +1,9 @@
 <ul>
   <li>Setup</li>
-  <li>Webdesign</li>
+  <li>Webdesign</li><ul>
+  <li>Trainigsplan Darstellung</li>
+  <li>Statistik Darstellung</li>
+  </ul>
   <li>Django Application Server<br>
   <ul>
     <li>User Management</li>
