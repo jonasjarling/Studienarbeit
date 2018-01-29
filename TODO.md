@@ -18,7 +18,7 @@
     <li>Impelemtierung</li>
     </ul></li>
   <li>Before Production Environment <ul>
-    <li>Webserver (DJANGO IS NOT A WEBSERVER)</li>
+    <li>Webserver (DJANGO IS NOT A WEBSERVER) https://docs.djangoproject.com/en/2.0/howto/deployment/wsgi/modwsgi/#serving-files</li>
     <li>Properly serve static files https://docs.djangoproject.com/en/2.0/howto/static-files/deployment/</li>
    </ul></li>
   <li>Tests
