@@ -10,9 +10,17 @@ def index(request):
     }
     return HttpResponse(template.render(context, request))
 
-def training(request):
+def training(request,trainingsplan_id):
 
     template = loader.get_template('balance/training.html')
+    context = {
+        'id':trainingsplan_id,
+    }
+    return HttpResponse(template.render(context,request))
+
+def login(request):
+
+    template = loader.get_template('balance/login.html')
     context = {
 
     }

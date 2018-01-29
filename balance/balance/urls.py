@@ -20,11 +20,15 @@ from django.conf.urls import url, include
 from . import views
 
 urlpatterns = (
+
+   # path('training/', views.training, name='training'),
+    path('login/', views.login, name='login'),
+    path('training/', include('training.urls')),
+    path('statistic/', include('statistic.urls')),
+
+
+
     path('admin/', admin.site.urls),
-    path('training/', views.training, name='training'),
-
-
-
-    path(r'^$', views.index, name='index'),
+    url(r'^$', views.index, name='index'),
 
 )
