@@ -14,7 +14,8 @@
   </ul>
   </li>
   <li>Database<ul>
-    
+    <li>Technologieentscheidung</li>
+    <li>Impelemtierung</li>
     </ul></li>
   <li>Before Production Environment <ul>
     <li>Webserver (DJANGO IS NOT A WEBSERVER)</li>
