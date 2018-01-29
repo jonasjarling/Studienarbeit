@@ -1,5 +1,6 @@
 <ul>
   <li>Setup</li>
+  <li>Zeitplan</li>
   <li>Webdesign<ul>
     <li>Trainigsplan Darstellung</li>
     <li>Statistik Darstellung</li>
