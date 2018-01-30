@@ -9,7 +9,3 @@ def index(request):
 
     }
     return HttpResponse(template.render(context,request))
-
-def plan(request, plan_id):
-
-    return HttpResponse("Hier sehen Sie Plan %s." % plan_id)

@@ -10,6 +10,6 @@ def index(request):
     }
     return HttpResponse(template.render(context,request))
 
-def plan(request, plan_id):
+def user(request, user_id):
 
-    return HttpResponse("Hier sehen Sie Plan %s." % plan_id)
+    return HttpResponse("Hier sehen Sie User %s." % user_id)
