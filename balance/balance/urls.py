@@ -26,8 +26,8 @@ urlpatterns = (
     path('training/', include('training.urls')),
     path('statistic/', include('statistic.urls')),
     path('news/', views.news, name='news'),
-    path('home/', views.home, name='home'),
-    path('profile/', views.profile, name='profile'),
+    path('home/', include('home.urls')),
+    path('profile/', include('profile.urls')),
 
     path('admin/', admin.site.urls),
     url(r'^$', views.index, name='index'),
