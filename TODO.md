@@ -23,7 +23,8 @@
    </ul></li>
   <li>Tests
     <ul>
-      <li> Functional</li>
+      <li>Django automated testing https://docs.djangoproject.com/en/2.0/intro/tutorial05/ </li>
+      <li> Functional</li>
       <li>gui</li>
       <li>Performance   -- ApacheJMeter?</li>
     </ul></li>
