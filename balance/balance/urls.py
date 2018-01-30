@@ -28,6 +28,7 @@ urlpatterns = (
     path('news/', views.news, name='news'),
     path('home/', include('home.urls')),
     path('profile/', include('profile.urls')),
+    path('register/', views.UserFormView.as_view(), name='register'),
 
     path('admin/', admin.site.urls),
     url(r'^$', views.index, name='index'),

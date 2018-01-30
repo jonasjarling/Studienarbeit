@@ -16,9 +16,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
-    {% load staticfiles %}
+    {% load static %}
 </head>
 <body>
+
     <nav class="navbar navbar-dark navbar-expand-md bg-danger">
             <!-- Header -->
         <a class="navbar-brand" href="{% url 'index' %}">        <!-- evtl index -->
@@ -31,31 +32,31 @@
             <!-- Items -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item {%  block navActive %}{% endblock %}">
                         <a class="nav-link" href="{% url 'news' %}">
                             <i class="fas fa-bullhorn"></i>&nbsp;
                             Neuigkeiten
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item {%  block homeActive %}{% endblock %}">
                         <a class="nav-link" href="{% url 'home' %}">
                             <i class="fas fa-home"></i>
                             Home
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item {%  block trainingActive %}{% endblock %}">
                         <a class="nav-link" href="{% url 'training' %}">
                             <i class="fas fa-edit"></i>
                             Training
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item {%  block profileActive %}{% endblock %}">
                         <a class="nav-link" href="{%  url 'profile' %}">
                             <i class="fas fa-user-circle"></i>
                             Meine Daten
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item {%  block statisticActive %}{% endblock %}">
                         <a class="nav-link" href="{%  url 'statistic' %}">
                             <i class="fas fa-chart-line"></i>
                             Statistik
