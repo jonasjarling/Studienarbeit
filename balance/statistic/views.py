@@ -2,5 +2,8 @@ from django.shortcuts import render
 
 from django.http import HttpResponse
 
-def index(request):
-    return HttpResponse("Statistic App")
+def statistic(request):
+    context = {
+        'test': '123'
+    }
+    return render(request, 'statistic/statistic.html', context)
