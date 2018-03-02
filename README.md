@@ -6,7 +6,7 @@
   <li>PyCharme                https://www.jetbrains.com/pycharm/</li>
   <li>Git                     https://git-scm.com/download/win</li>
   <li>Django                  pip install django</li>
-  <li>(Bootstrap4             pip install django-bootstrap4)</li>
+  <li>Bootstrap4             pip install django-bootstrap4</li>
 </ul>  
  
 
@@ -17,7 +17,7 @@
   <li>Ajax                    https://www.youtube.com/watch?v=tp3Gw-oWs2k&list=PL6gx4Cwl9DGDiJSXfsJTASx9eMq_HlenQ</li>
   <li>Bootstrap (Design)      https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK</li>
   <li>Font Awesome            https://fontawesome.com/</li>
-  <li>? MongoDB               https://www.youtube.com/watch?v=1uFY60CESlM&list=PL6gx4Cwl9DGDQ5DrbIl20Zu9hx1IjeVhO</li>
+  <li>Maria DB               </li>
 </ul>
 
 
