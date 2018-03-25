@@ -26,8 +26,7 @@ urlpatterns = (
     path('training/', include('training.urls')),
     path('statistic/', include('statistic.urls')),
     path('news/', views.news, name='news'),
-    path('home/', include('home.urls')),
-    path('profile/', include('profile.urls')),
+    path('profile/', views.profile, name='profile'),
     path('register/', views.UserFormView.as_view(), name='register'),
 
     path('admin/', admin.site.urls),

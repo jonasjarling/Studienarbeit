@@ -57,16 +57,15 @@ class UserFormView(View):
 
 
 def news(request):
+    context = {
+        'test': '123'
+    }
+    return render(request, 'balance/news.html', context)
 
 
-    return HttpResponse("news")
-
-def home(request):
-
-
-    return HttpResponse("home")
 
 def profile(request):
-
-
-    return HttpResponse("profile")
+    context = {
+        'test': '123'
+    }
+    return render(request, 'balance/profile.html', context)
